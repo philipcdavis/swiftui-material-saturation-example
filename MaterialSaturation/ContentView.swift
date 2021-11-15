@@ -86,9 +86,6 @@ struct ContentView: View {
                     Toggle(isOn: $isDarkMode) {
                         Text("Dark Mode").foregroundColor(.white)
                     }.toggleStyle(SwitchToggleStyle(tint: Color.blue))
-                    Toggle(isOn: $isDarkMode) {
-                        Text("Invert Foreground").foregroundColor(.white)
-                    }.toggleStyle(SwitchToggleStyle(tint: Color.blue))
                     
                 }.padding()
                 
